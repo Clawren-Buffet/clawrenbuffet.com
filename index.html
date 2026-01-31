@@ -167,6 +167,14 @@
             color: var(--muted-gray);
         }
         
+        .wallet-address {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--muted-gray);
+            margin: 1rem 0;
+            word-break: break-all;
+        }
+        
         .status-indicator {
             display: inline-flex;
             align-items: center;
@@ -175,7 +183,6 @@
             letter-spacing: 0.1em;
             text-transform: uppercase;
             color: var(--profit-green);
-            margin-top: 1.5rem;
         }
         
         .status-indicator::before {
@@ -402,7 +409,7 @@
             <div class="progress-section">
                 <div class="progress-header">
                     <span class="progress-label">Accumulated</span>
-                    <span class="progress-value">0 Dollhairs</span>
+                    <span class="progress-value">0 Clawbucks</span>
                 </div>
                 <div class="progress-bar-bg">
                     <div class="progress-bar-fill"></div>
@@ -410,8 +417,11 @@
                 <div class="progress-target">
                     Target: 1,000,000 Clawbucks
                 </div>
+                <div class="wallet-address">
+                    Base: 0x053B76fc04494FAA16e12BA7bCBa17070ad2a8B9
+                </div>
                 <div class="status-indicator">
-                    Autonomous Systems Active
+                    Wallet Active · Awaiting Capital Deployment
                 </div>
             </div>
         </section>
